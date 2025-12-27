@@ -1,30 +1,41 @@
-# Control Systems & Robotics Projects by Moi
+# Thin Ice Breaker
 
-Learning foundational robotics concepts through hands-on implementation.
+Breaking through the complexity of autonomous control systems and computer vision.
 
-## Projects
+## What's Inside
 
-### 1. PID Temperature Controller
-- Implemented proportional-integral-derivative control
-- Simulates feedback control for heating systems
-- Demonstrates elimination of steady-state error with integral term
+### Control Systems
+Advanced algorithms for autonomous robotics:
 
-### 2. Kalman Filter for Sensor Fusion
-- Optimal state estimation with noisy measurements
-- Reduces sensor noise from ±2m to ~0.1m error
-- Foundation for robot localization and navigation
+- **PID Temperature Controller** - Feedback control with integral action eliminating steady-state error
+- **Kalman Filter** - Optimal sensor fusion reducing measurement noise from ±2m to 0.1m accuracy
+- **A* Pathfinding** - Heuristic-based navigation with 8-way movement and obstacle avoidance
+- **LQR Cart-Pole Balancer** - Optimal control theory for dynamic system stabilization
 
-### 3. A* Pathfinding Algorithm
-- Efficient graph search for robot navigation
-- Heuristic-based path planning around obstacles
-- 8-way movement with Manhattan distance heuristic
+### Computer Vision
+Image processing algorithms built from first principles:
 
-## Tech Stack
-- Python (NumPy, Matplotlib)
-- Control theory & estimation algorithms
-- Graph algorithms
+- **Sobel Edge Detection** - Implemented from scratch using convolution and gradient operators
+- **Real Image Processing** - Tested on real photographs with adjustable thresholding
 
-## Future Work
-- Computer vision for crop monitoring
-- Autonomous agricultural systems
-- Space infrastructure applications
+## Technical Stack
+
+**Languages:** Python, Bash  
+**Libraries:** NumPy, SciPy, Matplotlib, Pillow  
+**Concepts:** Control theory, state estimation, graph algorithms, computer vision, linear algebra
+
+## Approach
+
+No black boxes - every algorithm implemented from mathematical foundations to understand HOW and WHY they work, not just that they work.
+
+## Purpose
+
+Building the technical foundation for:
+- Autonomous agricultural systems in Nigeria
+- Efficient, scalable food production
+- Eventually, space infrastructure and extraterrestrial manufacturing
+
+---
+
+*From Lagos to Mars*
+*Ferrum ferro acuitur*
