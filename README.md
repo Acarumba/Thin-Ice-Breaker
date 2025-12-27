@@ -1,4 +1,4 @@
-# Control Systems & Robotics Projects
+# Control Systems & Robotics Projects by Moi
 
 Learning foundational robotics concepts through hands-on implementation.
 
